@@ -1,0 +1,43 @@
+.textStyle{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.textStyle:hover{
+    color: white;
+    transform: scale(1.03);
+}
+.color1{
+    background: linear-gradient(
+    to left,
+    grey,
+    lightgreen,
+    #181827  );
+  background-size: 400% 400%;
+  animation: body 5s infinite ease-in-out;
+}
+@keyframes body {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+
+.farms{
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    margin: 0.5rem;
+    transition: 0.1s
+}
+
+.farms:hover{
+    color: white;
+    transform: scale(1.07);
+}
