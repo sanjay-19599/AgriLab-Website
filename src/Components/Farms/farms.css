@@ -1,0 +1,11 @@
+.ht{
+    height: 100vh;
+    width: 100vh;
+}
+.btn:hover{
+    background-color: #ADFF8B;
+    color: white;
+    background-image: linear-gradient(#3CCD00, #2C9700);
+    transform: scale(1.03);
+    transition: 0.2s;
+}

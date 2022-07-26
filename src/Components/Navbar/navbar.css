@@ -1,20 +1,17 @@
 .textStyle{
     font-weight: bolder;
-    color: white;
+    color: green;
     text-decoration: none;
     transition: 0.1s;
+    text-shadow: 0.1rem 0.1rem 0.2rem lightgray;
 }
 .textStyle:hover{
-    color: white;
+    color: darkgreen;
     transform: scale(1.03);
 }
 .color1{
-    background: linear-gradient(
-    to left,
-    grey,
-    lightgreen,
-    #181827  );
-  background-size: 400% 400%;
+  background: rgb(243,243,243);
+background: radial-gradient(circle, rgba(243,243,243,1) 0%, rgba(211,255,193,0.927608543417367) 100%);
   animation: body 5s infinite ease-in-out;
 }
 @keyframes body {
@@ -31,13 +28,13 @@
 
 .farms{
     text-decoration: none;
-    color: white;
+    color: green;
     border-color: white;
     margin: 0.5rem;
     transition: 0.1s
 }
 
 .farms:hover{
-    color: white;
+    color: darkgreen;
     transform: scale(1.07);
 }
