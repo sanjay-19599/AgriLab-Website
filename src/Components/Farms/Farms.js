@@ -9,7 +9,7 @@ export default class Pricing extends React.Component {
         <div className="row mx-auto">
           <div className="col-lg-4">
             <div className="shadow-lg">
-              <img src={farm} alt="Fruits" className="mx-auto img-fluid"  />
+              <img src={farm} alt="Farm 1" className="mx-auto img-fluid"  />
                 <div class="d-grid gap-2">
                   <button className="btn d-block">Farm 1</button>
                 </div>
@@ -17,7 +17,7 @@ export default class Pricing extends React.Component {
             </div>
             <div className="col-lg-4">
               <div className="shadow-lg">
-                 <img src={farm} alt="Vegetables" className="mx-auto img-fluid"/>
+                 <img src={farm} alt="Farm 2" className="mx-auto img-fluid"/>
                  <div class="d-grid gap-2">
                   <button className="btn d-block">Farm 2</button>
                 </div>
@@ -25,7 +25,7 @@ export default class Pricing extends React.Component {
             </div>
             <div className="col-lg-4">
               <div className="shadow-lg">
-                <img src={farm} alt="Dairy" className="mx-auto img-fluid"/>
+                <img src={farm} alt="Farm 3" className="mx-auto img-fluid"/>
                 <div class="d-grid gap-2">
                   <button className="btn d-block">Farm 3</button>
                 </div>

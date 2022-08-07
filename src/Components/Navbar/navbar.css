@@ -8,10 +8,11 @@
 .textStyle:hover{
     color: darkgreen;
     transform: scale(1.03);
+    text-shadow: 0.2rem 0.2rem 0.3rem lightgray;
 }
 .color1{
   background: rgb(243,243,243);
-background: radial-gradient(circle, rgba(243,243,243,1) 0%, rgba(211,255,193,0.927608543417367) 100%);
+  background: radial-gradient(circle, rgba(243,243,243,1) 0%, rgba(211,255,193,0.927608543417367) 100%);
   animation: body 5s infinite ease-in-out;
 }
 @keyframes body {
@@ -37,4 +38,5 @@ background: radial-gradient(circle, rgba(243,243,243,1) 0%, rgba(211,255,193,0.9
 .farms:hover{
     color: darkgreen;
     transform: scale(1.07);
+    text-shadow: 1px 1px 5px lightgrey;
 }

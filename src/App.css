@@ -2,6 +2,7 @@
   font-family: 'Julius Sans One', sans-serif;
   background: rgb(243,243,243);
   background: radial-gradient(circle, rgba(243,243,243,1) 0%, rgba(211,255,193,0.8855917366946778) 100%);
+  min-height: 100vh;
 }
 
 .App-logo {

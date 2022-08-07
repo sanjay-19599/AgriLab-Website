@@ -5,7 +5,7 @@
 .btn:hover{
     background-color: #ADFF8B;
     color: white;
-    background-image: linear-gradient(#3CCD00, #2C9700);
+    background-image: linear-gradient(lightgreen, green);
     transform: scale(1.03);
     transition: 0.2s;
 }

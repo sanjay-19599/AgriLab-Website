@@ -1,0 +1,10 @@
+.home{
+    text-decoration: none;
+    color: green;
+}
+.home:hover{
+    transform: scale(2);
+    transition: 0.1s;
+    color: lightgreen;
+    
+}
