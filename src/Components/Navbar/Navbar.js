@@ -12,8 +12,7 @@ export default class Navbar extends React.Component {
           <Link to="/farms" className='farms h5 text-bold mx-5'>Farms</Link>
         </div>
       </div>
-      
     </div>
-  )
+    )
   }
 }
